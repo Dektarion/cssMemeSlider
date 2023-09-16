@@ -1,0 +1,37 @@
+@media screen and (max-width: 700px) {
+
+  .slider__first-box {
+    width: 21.875rem;
+  }
+
+  .slider__second-box {
+    flex-direction: column-reverse;
+    width: 21.875rem;
+    gap: 1rem 0;
+  }
+
+  .slider__text-box {
+    align-self: flex-start;
+  }
+
+  #second:checked ~ .slider__first-box > .slider__img {
+    transform: translateX(-21.875rem);
+  }
+
+  #third:checked ~ .slider__first-box > .slider__img {
+    transform: translateX(-43.75rem);
+  }
+
+  #fouth:checked ~ .slider__first-box > .slider__img {
+    transform: translateX(-65.625rem);
+  }
+
+  #fifth:checked ~ .slider__first-box > .slider__img {
+    transform: translateX(-87.5rem);
+  }
+}
+
+
+
+
+

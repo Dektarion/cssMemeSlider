@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.body {
+  max-width: 90rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+
+.container {
+  padding: 1rem 7.5rem;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header__title {
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2em;
+}
+
+.main {
+  margin: 0 auto;
+  display: flex;
+  width: 95%;
+  height: 50vh;
+  background-color: #999595;
+}
